@@ -2,6 +2,7 @@ opam-version: "1"
 maintainer: "andy.ray@ujamjar.com"
 homepage: "https://github.com/issuu/ocaml-zmq"
 build: [
+  ["oasis" "setup"]
   ["ocaml" "setup.ml" "-configure" "--prefix" prefix]
   ["ocaml" "setup.ml" "-build"]
   ["ocaml" "setup.ml" "-install"]
