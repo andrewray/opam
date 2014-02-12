@@ -9,6 +9,7 @@ build: [
 remove: [["ocamlfind" "remove" "ZMQ"]]
 depends: [
   "ocamlfind"
+  "oasis"
   "ounit"
   "uint"
 ]
