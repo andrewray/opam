@@ -3,7 +3,6 @@ maintainer: "andy.ray@ujamjar.com"
 homepage: "https://github.com/andrewray/iocaml"
 build: [
   ["make" "all"]
-  ["make" "install"]
 ]
 remove: [["ocamlfind" "remove" "iocaml"]]
 depends: [

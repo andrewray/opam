@@ -1,5 +1,20 @@
 bin: ["_build/iocaml.top"]
+lib: [
+    "META"
+    "_build/iocaml.cmi" 
+    "_build/Ipython_json_t.cmi" 
+    "_build/Ipython_json_j.cmi" 
+    "_build/message.cmi" 
+    "_build/log.cmi" 
+    "_build/sockets.cmi"
+]
 share: [ 
     "profile/ipython_config.py" {"profile/ipython_config.py"}
     "profile/static/custom/custom.js" {"profile/static/custom/custom.js"}
+    "notebooks/iocaml-development.ipynb"
+    "notebooks/iocaml-install.ipynb"
+    "notebooks/iocaml-test-notebook.ipynb"
+    "notebooks/iocaml-the-core-language.ipynb"
+    "notebooks/iocaml-using-tyxml.ipynb"
+    "notebooks/syntax-highlighting.ipynb"
 ]
