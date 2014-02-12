@@ -15,7 +15,7 @@ depends: [
   "ocamlnet"
   "yojson"
   "atdgen"
-  "ocaml-zmq" { >= 0.3.2 }
+  "ocaml-zmq" {= 0.3.2}
 ]
 depexts: [
   [["debian"] ["libzmq3-dev"]]
