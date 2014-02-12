@@ -1,2 +1,5 @@
 bin: ["_build/iocaml.top"]
-share: [ "profile/ipython_config.py" "profile/static/custom/custom.js" ]
+share: [ 
+    "profile/ipython_config.py" {"profile/ipython_config.py"}
+    "profile/static/custom/custom.js" {"profile/static/custom/custom.js"}
+]
