@@ -1,1 +1,5 @@
-An OCaml kernel of IPyhton
+An OCaml kernel for the IPython notebook. 
+
+Provides an OCaml REPL in a web browser providing syntax
+highlighted code editing, markdown based commentary, high
+quality math typesetting and rich html based output.
