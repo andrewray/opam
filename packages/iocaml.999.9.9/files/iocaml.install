@@ -1,1 +1,1 @@
-bin: ["_build/iocamlserver.byte" {iocaml}]
+bin: ["_build/iocamlserver.byte" {"iocaml"}]

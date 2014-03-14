@@ -16,7 +16,8 @@ depends: [
   "lwt-zmq"
   "websocket"
   "cohttp"
-  "iocaml-kernel"
-  "iocamljs-kernel"
+  "crunch"
+  "iocaml-kernel" {= "999.9.9"}
+  "iocamljs-kernel" {= "999.9.9"}
 ]
 ocaml-version: [ >= "4.01.0" ]

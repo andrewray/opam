@@ -11,13 +11,10 @@ depends: [
   "ounit"
   "uint"
   "uuidm"
-  "cryptokit"
-  "ocamlnet"
   "yojson"
   "atdgen"
-  "ocp-index" {= "1.0.1"}
-  "optcomp"
-  "ocaml-zmq" {= "0.3.2"}
+  "ocp-index" 
+  "zmq" {= "3.2-2"}
 ]
 depexts: [
   [["debian"] ["libzmq3-dev"]]
