@@ -11,11 +11,11 @@ depends: [
   "uuidm"
   "yojson"
   "cow"
-  "zmq"
-  "lwt"
+  "zmq" {>= "3.2-2"}
+  "lwt" {>= "2.4"}
   "lwt-zmq"
-  "websocket"
-  "cohttp"
+  "websocket" {>= "0.7"}
+  "cohttp" {>= "0.10.0"}
   "crunch"
   "iocaml-kernel" {= "999.9.9"}
   "iocamljs-kernel" {= "999.9.9"}

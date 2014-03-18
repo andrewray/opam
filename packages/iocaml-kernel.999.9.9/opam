@@ -9,11 +9,11 @@ remove: [
 depends: [
   "ocamlfind"
   "ounit"
-  "uint"
+  "uint" {>= "1.1.0"}
   "uuidm"
   "yojson"
   "atdgen"
-  "ocp-index" 
+  "ocp-index" {>= "1.0.1"} 
   "zmq" {= "3.2-2"}
 ]
 depexts: [

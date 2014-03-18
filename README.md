@@ -1,3 +1,2 @@
-opam package descriptions for Iocaml. 
+opam package descriptions for Iocaml dev version
 
-In flux - moving to manage a dev version.
