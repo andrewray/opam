@@ -1,2 +1,1 @@
-archive: "https://github.com/andrewray/iocamlserver/archive/v0.4.2.tar.gz"
-checksum: "d03065eaecd8ddcce9ddb98fcff062b0"
+git: "https://github.com/andrewray/iocamlserver.git"
