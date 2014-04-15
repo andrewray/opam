@@ -15,7 +15,7 @@ depends: [
   "zmq" {>= "3.2-2"}
   "lwt" {>= "2.4"}
   "lwt-zmq"
-  "websocket" {>= "0.7"}
+  "websocket" {>= "0.8"}
   "cohttp" {>= "0.10.0"}
   "crunch"
   "iocaml-kernel" {= "999.9.9"}
