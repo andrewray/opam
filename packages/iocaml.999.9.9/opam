@@ -16,6 +16,7 @@ depends: [
   "websocket" {>= "0.8"}
   "cohttp" {>= "0.10.0"}
   "crunch"
+  "ctypes" {>= "0.2.3"}
   "iocaml-kernel" {= "999.9.9"}
   "iocamljs-kernel" {= "999.9.9"}
 ]
