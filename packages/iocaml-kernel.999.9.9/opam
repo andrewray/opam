@@ -3,8 +3,10 @@ maintainer: "andy.ray@ujamjar.com"
 homepage: "https://github.com/andrewray/iocaml"
 build: [
   [make "all"]
+  [make "install"]
 ]
 remove: [
+  [make "uninstall"]
 ]
 depends: [
   "ocamlfind"
@@ -14,7 +16,6 @@ depends: [
   "yojson"
   "atdgen"
   "ocp-index" {>= "1.0.1"} 
-  "zmq" {= "3.2-2"}
 ]
 depexts: [
   [["debian"] ["libzmq3-dev"]]
