@@ -2,11 +2,11 @@ opam-version: "1.1"
 maintainer: "andy.ray@ujamjar.com"
 homepage: "https://github.com/andrewray/iocaml"
 build: [
-  [make "all"]
-  [make "install"]
+  [ make "all" ]
+  [ make "install" ]
 ]
 remove: [
-  [make "uninstall"]
+  [ make "uninstall" ]
 ]
 depends: [
   "ocamlfind"
@@ -15,7 +15,7 @@ depends: [
   "uuidm"
   "yojson"
   "atdgen"
-  "ocp-index" {>= "1.0.1"} 
+  "ocp-index" {>= "1.0.1"}
   "ctypes" {>= "0.2.3"}
 ]
 depexts: [
