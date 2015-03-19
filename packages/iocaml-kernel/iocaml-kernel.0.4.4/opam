@@ -16,10 +16,13 @@ depends: [
   "yojson"
   "atdgen"
   "ocp-index" {>= "1.0.1"}
-  "ctypes" {>= "0.2.3"}
+  "lwt" {>= "2.4"}
+  "ctypes" {>= "0.3"}
+  "ctypes-foreign"
 ]
 depexts: [
   [["debian"] ["libzmq3-dev"]]
   [["ubuntu"] ["libzmq3-dev"]]
+  [["osx" "homebrew"] ["zeromq"]]
 ]
 ocaml-version: [ >= "4.01.0" ]
