@@ -19,4 +19,4 @@ depends: [
   "optcomp"
   "zmq" {= "3.2-2"}
 ]
-ocaml-version: [>= "4.00.1" & < "4.02.0"]
+ocaml-version: [>= "4.00.1" & < "4.01.0"]
