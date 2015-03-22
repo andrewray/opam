@@ -11,5 +11,6 @@ remove: [
 depends: [
   "hardcaml"
   "hardcaml-waveterm"
+  "omd"
 ]
 ocaml-version: [ >= "4.01.0" ]
