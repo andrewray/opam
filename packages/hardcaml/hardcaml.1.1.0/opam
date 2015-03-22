@@ -10,7 +10,9 @@ remove: [
 ]
 depends: [
   "ocamlfind"
+  "base-bytes"
   "camlp4"
-  "lwt"
   "js_of_ocaml"
+  "ctypes"
 ]
+ocaml-version: [ >= "4.01.0" ]
